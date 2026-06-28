@@ -1,0 +1,18 @@
+{
+  "name": "ai-investment-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "@langchain/core": "^0.1.60",
+    "@langchain/google-genai": "^0.0.21",
+    "langchain": "^0.1.36"
+  }
+}
