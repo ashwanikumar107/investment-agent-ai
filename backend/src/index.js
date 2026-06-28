@@ -12,6 +12,7 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
   /\.vercel\.app$/,
+  'https://investment-agent-ai.vercel.app',  
 ];
 
 app.use(cors({
